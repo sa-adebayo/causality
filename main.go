@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-fsnotify/fsnotify"
 	"github.com/gobuild/log"
-	"github.com/sa-adebayo/causality/causality"
+	causality "github.com/sa-adebayo/causality/engine"
 )
 
 func main() {
