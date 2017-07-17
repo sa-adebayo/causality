@@ -1,4 +1,5 @@
 # causality
+
 [![Build Status](https://travis-ci.org/sa-adebayo/causality.svg?branch=master)](https://travis-ci.org/sa-adebayo/causality)
 [![Build status](https://ci.appveyor.com/api/projects/status/i89ygpvpdl8wpqjr/branch/master?svg=true)](https://ci.appveyor.com/project/sa-adebayo/causality/branch/master)
 
