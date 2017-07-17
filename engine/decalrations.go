@@ -58,8 +58,8 @@ type Config struct {
 // TriggerEvent is the event trigger struct
 type TriggerEvent struct {
 	Name                string            `yaml:"name" json:"name"`
-	Pattens             []string          `yaml:"pattens" json:"pattens"`
-	matchPattens        []string          ``
+	Patterns            []string          `yaml:"patterns" json:"patterns"`
+	matchPatterns       []string          ``
 	Environ             map[string]string `yaml:"env" json:"env"`
 	Command             string            `yaml:"cmd" json:"cmd"`
 	Shell               bool              `yaml:"shell" json:"shell"`
