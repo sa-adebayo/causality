@@ -15,7 +15,7 @@ import (
 func (event *TriggerEvent) WatchEvent(eventChannel chan Event, wg *sync.WaitGroup) {
 	waitC := event.Start()
 	for evt := range eventChannel {
-		isMatch, err := ignore.Matches(evt.Name, event.Pattens)
+		isMatch, err := ignore.Matches(evt.Name, event.Patterns)
 		if err != nil {
 			log.Fatal(err)
 		}
